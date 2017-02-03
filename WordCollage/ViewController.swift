@@ -21,9 +21,19 @@ class ViewController: UIViewController {
     
     @IBAction func changeBackgroundBlack(_ sender: UIButton) {
         view.backgroundColor = UIColor.black
+        // Changes background color to black
+        
     }
     @IBAction func changeBackgroundWhite(_ sender: UIButton) {
         view.backgroundColor = UIColor.white
+        // Changes background color to white
+    }
+    @IBAction func changeBackgroundMagenta(_ sender: UIButton) {
+        view.backgroundColor = UIColor.magenta
+        // Changes background color to magenta
+    }
+    @IBAction func changeBackgroundCustom(_ sender: UIButton) {
+        view.backgroundColor = UIColor.init(red: 100/255, green: 0, blue: 50/255, alpha: 1)
     }
 }
 
